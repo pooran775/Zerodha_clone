@@ -30,28 +30,32 @@ function Navbar() {
           <form class="d-flex" role="search">
             <ul class="navbar-nav mb-lg-0">
               <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/signup">
-                  Signup
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link active" to="/about">
-                  About
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link active" to="/product">
+                <Link class="nav-link active hover-effect" to="/product">
                   Product
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link active" to="/pricing">
+                <Link class="nav-link active hover-effect" to="/about">
+                  About
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link class="nav-link active hover-effect" to="/pricing">
                   Pricing
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link active" to="/support">
+                <Link class="nav-link active hover-effect" to="/support">
                   Support
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link
+                  class="nav-link active hover-effect"
+                  aria-current="page"
+                  to="/signup"
+                >
+                  Signup
                 </Link>
               </li>
             </ul>
